@@ -11,6 +11,7 @@ class Conductor(models.Model):
     Post = models.CharField(max_length=20, null=True)
     pin = models.BigIntegerField(null=True)
     Bus = models.CharField(max_length=20, null=True)
+    Busnum = models.CharField(max_length=20, null=True)
 
 # class feedback(models.Model):
 #     # User_id
